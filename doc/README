@@ -1,3 +1,3 @@
 This is a test instance for trying out git stuff. Go ahead\!
 git status, git add <file> and git commit -m '<message>' are some useful commands
-git reset HEAD <file> removes file from the staging area
+git reset HEAD <file> removes file from the staging area# gitTest
