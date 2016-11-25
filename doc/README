@@ -1,3 +1,5 @@
 This is a test instance for trying out git stuff. Go ahead\!
 git status, git add <file> and git commit -m '<message>' are some useful commands
 git reset HEAD <file> removes file from the staging area# gitTest
+Another useful command for gitHub is git remote add origin <https...>
+git push -u origin master
