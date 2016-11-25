@@ -3,3 +3,12 @@ git status, git add <file> and git commit -m '<message>' are some useful command
 git reset HEAD <file> removes file from the staging area# gitTest
 Another useful command for gitHub is git remote add origin <https...>
 git push -u origin master
+
+Possible process for creating an ER instance:
+
+keep a localcopy and a server copy.
+push local to server or pull server to local.
+create a tag: er_<date>
+clone server version to local place: 
+- position yourself in project folder
+- clone and rename the repo by this command:
