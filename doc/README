@@ -12,3 +12,19 @@ create a tag: er_<date>
 clone server version to local place: 
 - position yourself in project folder
 - clone and rename the repo by this command:
+	git clone <http>//> <name>_er
+- the above clones and renames the github repo locally
+
+To lock an ER instance:
+- go to project folder
+- chmod 550 <instance_name>
+- got to subfolders
+- chmod 550 <folders> (for example */)
+- chmod u-w <files> (maybe a for loop or the find command)
+- chmod g-w
+- chmod o-rwx
+- lock files:
+	find . -type f -exec chmod u-w {} \;
+
+To delete a gir repo do:
+- rm -rf .git
